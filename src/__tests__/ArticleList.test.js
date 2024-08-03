@@ -1,6 +1,8 @@
 import "@testing-library/jest-dom";
 import { render } from "@testing-library/react";
 import ArticleList from "../components/ArticleList";
+import ArticleList from "../components/ArticleList"; // This is correct if your test file is in a directory adjacent to `components`
+
 
 const posts = [
   {
